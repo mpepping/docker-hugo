@@ -23,6 +23,13 @@ Create a new post:
 
 Run locally:
 
-    $ hugo server -w --baseUrl="http://default.docker:1313" --bind=0.0.0.0  
+    $ hugo server -w --baseUrl="http://$DOCKERHOST:1313" --bind=0.0.0.0  
 
-Now, open <http://$DOCKERHOSTIP:1313/> to see your Hugo website.
+Now, open <http://$DOCKERHOST:1313/> to see your Hugo website.
+
+To build the site for publication:
+
+    $ hugo --baseUrl="http://www.mysite.com"
+
+The content of the `public` folder can be uploaded to a webservice that serves
+static content.
