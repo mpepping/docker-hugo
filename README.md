@@ -4,9 +4,12 @@
 [Hugo](https://gohugo.io) in a container.
 To get up and running quickly;
 
-Initialize a new website:
+Pull the image:
 
     $ docker pull mpepping/hugo
+
+Initialize a new website:
+
     $ mkdir mysite && cd mysite
     $ docker run --rm -v $PWD:/src mpepping/hugo new site .
 
