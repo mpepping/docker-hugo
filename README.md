@@ -23,4 +23,6 @@ Create a new post:
 
 Run locally:
 
-    $ hugo server -w --baseUrl="http://docker:1313" --bind=0.0.0.0  
+    $ hugo server -w --baseUrl="http://default.docker:1313" --bind=0.0.0.0  
+
+Now, open <http://$DOCKERHOSTIP:1313/> to see your Hugo website.
