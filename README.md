@@ -1,6 +1,6 @@
 # mpepping/hugo
 
-[](https://images.microbadger.com/badges/image/mpepping/hugo.svg)
+[![](https://images.microbadger.com/badges/image/mpepping/hugo.svg)]
 
 [Hugo](https://gohugo.io) in a container.
 To get up and running quickly;
