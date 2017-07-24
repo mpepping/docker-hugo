@@ -34,3 +34,8 @@ To build the site for publication:
 
 The content of the `public` folder can be uploaded to a webservice that serves
 static content.
+
+## Ref.
+
+* [Hugo source repo](https://github.com/gohugoio/hugo)
+* [Docker image source repo](https://github.com/mpepping/docker-hugo)
