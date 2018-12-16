@@ -1,7 +1,7 @@
 FROM alpine:latest
 LABEL maintainer="Martijn Pepping <martijn.pepping@automiq.nl>"
 
-ENV HUGO_VERSION=0.25.1
+ENV HUGO_VERSION=0.52
 
 RUN apk add --update \
   bash \
@@ -13,7 +13,7 @@ RUN apk add --update \
   mv hugo /usr/bin/hugo && \
   apk del ca-certificates wget
 
-VOLUME /src
+VOLUME  /src
 WORKDIR /src
 
 ENTRYPOINT ["hugo"]
