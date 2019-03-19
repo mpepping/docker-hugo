@@ -1,7 +1,7 @@
 FROM alpine:latest
 LABEL maintainer="Martijn Pepping <martijn.pepping@automiq.nl>"
 
-ENV HUGO_VERSION=0.52
+ENV HUGO_VERSION=0.54
 
 RUN apk add --update \
   bash \
